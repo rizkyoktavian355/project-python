@@ -68,7 +68,7 @@ elif n == 4:
 elif n > 4:
     print("=== POLA PERSEGI PANJANG ===")
     panjang = 3 * n
-    for i in range(n):
+    for i in range(3):
         print("*" * panjang)
 
 else:
