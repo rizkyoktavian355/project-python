@@ -25,6 +25,8 @@ print("=" * 30)
 print(f"Total Nilai Seluruh Semester : {total_nilai:.0f}")
 print(f"Rata-rata Nilai             : {rata_rata:.2f}")
 print(f"Status Kualifikasi          : {status}")
+print()
+print()
 
 #PERHITUNGAN MATEMATIK FACTORIAL
 
