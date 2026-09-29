@@ -17,7 +17,7 @@ rata_rata = total_nilai / jumlah_nilai
 if rata_rata >= 85:
     status = "Anda Lulus"
 elif rata_rata > 70:
-    status = "Harus Remedial"
+    status = "Harus Perbaikan Nilai"
 else:
     status = "Tidak Lulus"
 
