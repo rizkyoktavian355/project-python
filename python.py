@@ -68,7 +68,7 @@ elif angka_pola == 4:
 
 elif angka_pola > 4:
     print("=== POLA PERSEGI PANJANG ===")
-    panjang = 3 * n
+    panjang = 3 * angka_pola
     for i in range(3):
         print("*" * panjang)
 
