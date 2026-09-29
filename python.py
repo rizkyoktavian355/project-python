@@ -8,7 +8,7 @@ for semester in range(1, 6):
     
     for mp in matpel:
         nilai = float(input(f"Nilai {mp} : "))
-        total_nilai += nilai
+        total_nilai= total_nilai + nilai
     print() 
 
 jumlah_nilai = 5 * len(matpel)
