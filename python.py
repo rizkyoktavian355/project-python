@@ -57,13 +57,14 @@ n = int(input("Masukan Angka: "))
 
 if n == 3:
     print("=== POLA SEGITIGA (3) ===")
+    tinggi= 5
     for i in range(1, n + 1):
-        print(" " * (n - i) + "* " * i)
+        print(" ".join("*" * i))
 
 elif n == 4:
     print("=== POLA PERSEGI (4x4) ===")
-    for i in range(n // 2):
-        print("*" * n)
+    for i in range(4):
+        print(" ".join("*" * 4))
 
 elif n > 4:
     print("=== POLA PERSEGI PANJANG ===")
