@@ -57,7 +57,6 @@ angka_pola= int(input("Masukan Angka: "))
 
 if angka_pola == 3:
     print("=== POLA SEGITIGA (3) ===")
-    tinggi= 5
     for i in range(1, angka_pola + 1):
         print(" ".join("*" * i))
 
