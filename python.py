@@ -30,43 +30,43 @@ print()
 
 print("PERHITUNGAN FAKTORIAL".center(30, "="))
 
-n = int(input("Masukan Angka Bulat (contoh: 5): "))
+angka= int(input("Masukan Angka Bulat (contoh: 5): "))
 
-if n < 0:
+if angka < 0:
     print("Faktorial tidak bisa menggunakan angka negatif")
 else:
     hasil = 1
-    for i in range(1, n + 1):
+    for i in range(1, angka + 1):
         hasil= hasil * i
 
-    if n == 0:
+    if angka == 0:
         proses = "1"
     else:
-        proses = " x ".join(str(i) for i in range(n, 0, -1))
+        proses = " x ".join(str(i) for i in range(angka, 0, -1))
 
     print("HASIL".center(30, "="))
-    print(f"Proses : {n}! = {proses}")
-    print(f"Hasil  : {n}! = {hasil}")
+    print(f"Proses : {angka}! = {proses}")
+    print(f"Hasil  : {angka}! = {hasil}")
     print()
     print()
 
 print("MEMBUAT POLAL".center(30, "="))
 
 print("Angka Pilihan (3 = Segitiga, 4 = Persegi, >4 = Persegi Panjang)")
-n = int(input("Masukan Angka: "))
+angka_pola= int(input("Masukan Angka: "))
 
-if n == 3:
+if angka_pola == 3:
     print("=== POLA SEGITIGA (3) ===")
     tinggi= 5
-    for i in range(1, n + 1):
+    for i in range(1, angka_pola + 1):
         print(" ".join("*" * i))
 
-elif n == 4:
+elif angka_pola == 4:
     print("=== POLA PERSEGI (4x4) ===")
     for i in range(4):
         print(" ".join("*" * 4))
 
-elif n > 4:
+elif angka_pola > 4:
     print("=== POLA PERSEGI PANJANG ===")
     panjang = 3 * n
     for i in range(3):
