@@ -52,7 +52,7 @@ else:
 
 print("MEMBUAT POLAL".center(30, "="))
 
-    print("Angka Pilihan (3 = Segitiga, 4 = Persegi, >4 = Persegi Panjang)")
+print("Angka Pilihan (3 = Segitiga, 4 = Persegi, >4 = Persegi Panjang)")
 n = int(input("Masukan Angka: "))
 
 if n == 3:
