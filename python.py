@@ -11,7 +11,7 @@ for semester in range(1, 6):
         total_nilai += nilai
     print() 
 
-jumlah_nilai = 4 * len(matpel)
+jumlah_nilai = 5 * len(matpel)
 rata_rata = total_nilai / jumlah_nilai
 
 if rata_rata >= 85:
