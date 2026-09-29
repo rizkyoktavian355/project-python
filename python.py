@@ -15,11 +15,11 @@ jumlah_nilai = 5 * len(matpel)
 rata_rata = total_nilai / jumlah_nilai
 
 if rata_rata >= 85:
-    status = "Lolos Jalur Prestasi (Beasiswa)"
-elif rata_rata >= 70:
-    status = "Lolos Jalur Reguler"
+    status = "Anda Lulus"
+elif rata_rata > 70:
+    status = "Harus Remedial"
 else:
-    status = "Tidak Lolos (Harus Remedial)"
+    status = "Tidak Lulus"
 
 print("=" * 30)
 print(f"Total Nilai Seluruh Semester : {total_nilai:.0f}")
