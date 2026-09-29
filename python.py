@@ -1,4 +1,4 @@
-#IF ELSE, FOR
+print("PERHITUNGAN NILAI".center(30, "="))
 
 matpel = ["Matematika", "B. Indonesia", "B. Inggris"]
 total_nilai = 0
@@ -28,8 +28,6 @@ print(f"Status Kualifikasi          : {status}")
 print()
 print()
 
-#PERHITUNGAN MATEMATIK FACTORIAL
-
 print("PERHITUNGAN FAKTORIAL".center(30, "="))
 
 n = int(input("Masukan Angka Bulat (contoh: 5): "))
@@ -51,8 +49,6 @@ else:
     print(f"Hasil  : {n}! = {hasil}")
     print()
     print()
-
-#POLA
 
 print("MEMBUAT POLAL".center(30, "="))
 
