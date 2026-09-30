@@ -1,4 +1,4 @@
-print("--- MiniMarket cecep ---")
+print("--- MiniMarket ---")
 nama_barang = input("Masukkan Nama Barang: ")
 jumlah_barang = int(input("Masukkan jumlah barang: "))
 harga = int(input("Harga barang: Rp"))
