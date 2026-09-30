@@ -1,4 +1,5 @@
 print("PERHITUNGAN NILAI".center(30, "="))
+print()
 
 matpel = ["Matematika", "B. Indonesia", "B. Inggris"]
 total_nilai = 0
@@ -52,24 +53,24 @@ else:
 
 print("MEMBUAT POLAL".center(30, "="))
 
-print("Angka Pilihan (3 = Segitiga, 4 = Persegi, >4 = Persegi Panjang)")
-angka_pola= int(input("Masukan Angka: "))
+angka_pola= int(input("Masukkan angka untuk ukuran pola: "))
+print()
 
-if angka_pola == 3:
-    print("=== POLA SEGITIGA (3) ===")
-    for i in range(1, angka_pola + 1):
-        print(" ".join("*" * i))
+print("Pola Persegi")
+for i in range(angka_pola):
+    for j in range(angka_pola):
+        print("*", end=" ")
+    print()
+print()
 
-elif angka_pola == 4:
-    print("=== POLA PERSEGI (4x4) ===")
-    for i in range(4):
-        print(" ".join("*" * 4))
+print("Pola Persegi Panjang")
+for i in range(angka_pola):
+    for j in range(angka_pola * 3):
+        print("*", end=" ")
+    print()
+print()
 
-elif angka_pola > 4:
-    print("=== POLA PERSEGI PANJANG ===")
-    panjang = 3 * angka_pola
-    for i in range(3):
-        print("*" * panjang)
-
-else:
-    print("Masukan Angka Minimal 3")
+print("Pola Segitiga Sama Sisi")
+for i in range(1, angka_pola + 1):
+    print(" " * (angka_pola - i), end="")
+    print("* " * i)
